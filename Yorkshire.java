@@ -7,20 +7,15 @@
 // ****************************************************************
 
 
-public class Yorkshire extends Dog
-{
-    protected int size;  //1 is smallest, 5 is largest
-     
-    public Yorkshire(String name, int size)
-    {
-	super(name);
-	this.size = size;
+public class Yorkshire extends Dog {
+    protected int size;
+
+    public Yorkshire(String name, int size) {
+        super(name);
+        this.size = size;
     }
 
-
-    public void waddle()
-    {
+    public void waddle() {
         System.out.println(name + " is doing a York waddle");
     }
-
 }
